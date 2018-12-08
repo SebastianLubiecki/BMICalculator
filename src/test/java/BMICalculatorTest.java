@@ -16,25 +16,24 @@ public class BMICalculatorTest {
 
     @Test
     public void BMICalculateTestWithParametersZeroTest() {
-        bmiCalculator.setHeight(0);
-        bmiCalculator.setWeight(0);
+
         try {
+           BMICalculator bmiCalculator = new BMICalculator(0,0);
             bmiCalculator.calculate();
             fail();
         } catch (IllegalArgumentException e) {
-            assertEquals(e.getMessage(), "Wrong parameters");
+            assertEquals("Wrong parameters", e.getMessage());
         }
     }
 
     @Test
     public void BMICalculateTestWithParameterHeightLowerThenZeroTest() {
-        bmiCalculator.setHeight(-1);
-        bmiCalculator.setWeight(5);
         try {
-            bmiCalculator.calculate();
+           BMICalculator bmiCalculator1 = new BMICalculator(0,-3);
+            bmiCalculator1.calculate();
             fail();
         } catch (IllegalArgumentException e) {
-            assertEquals(e.getMessage(), "Wrong parameters");
+            assertEquals("Wrong parameters", e.getMessage());
         }
     }
 
@@ -43,30 +42,31 @@ public class BMICalculatorTest {
         bmiCalculator.setHeight(1);
         bmiCalculator.setWeight(-5);
         try {
-            bmiCalculator.calculate();
+            BMICalculator bmiCalculator2 = new BMICalculator(-5,1);
+            bmiCalculator2.calculate();
             fail();
         } catch (IllegalArgumentException e) {
-            assertEquals(e.getMessage(), "Wrong parameters");
+            assertEquals("Wrong parameters", e.getMessage());
         }
     }
 
     @Test
     public void BMIInterpretWithUnderweightTest() {
-        bmiCalculator.setHeight(200);
+        bmiCalculator.setHeight(2.0);
         bmiCalculator.setWeight(50);
         assertEquals(bmiCalculator.interpret(), "Underweight");
     }
 
     @Test
     public void BMIInterpretWithNormalWeightTest() {
-        bmiCalculator.setHeight(180);
+        bmiCalculator.setHeight(1.80);
         bmiCalculator.setWeight(70);
         assertEquals(bmiCalculator.interpret(), "NormalWeight");
     }
 
     @Test
     public void BMIInterpretWithOverWeightTest() {
-        bmiCalculator.setHeight(150);
+        bmiCalculator.setHeight(1.5);
         bmiCalculator.setWeight(200);
         assertEquals(bmiCalculator.interpret(), "OverWeight");
     }
