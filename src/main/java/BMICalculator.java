@@ -17,8 +17,7 @@ public class BMICalculator implements Calculate {
     }
 
 
-    public BMICalculator() {
-    }
+
 
     @Override
     public String calculate() {

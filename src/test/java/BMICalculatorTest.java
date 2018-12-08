@@ -1,4 +1,4 @@
-import org.junit.Before;
+
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -9,10 +9,7 @@ public class BMICalculatorTest {
 
     private BMICalculator bmiCalculator;
 
-    @Before
-    public void setBmiCalculator() {
-        this.bmiCalculator = new BMICalculator();
-    }
+
 
     @Test
     public void BMICalculateTestWithParametersZeroTest() {
@@ -39,8 +36,6 @@ public class BMICalculatorTest {
 
     @Test
     public void BMICalculateTestWithParameterWeightLowerThenZeroTest() {
-        bmiCalculator.setHeight(1);
-        bmiCalculator.setWeight(-5);
         try {
             BMICalculator bmiCalculator2 = new BMICalculator(-5,1);
             bmiCalculator2.calculate();
@@ -52,22 +47,22 @@ public class BMICalculatorTest {
 
     @Test
     public void BMIInterpretWithUnderweightTest() {
-        bmiCalculator.setHeight(2.0);
-        bmiCalculator.setWeight(50);
-        assertEquals(bmiCalculator.interpret(), "Underweight");
+
+        BMICalculator bmiCalculator3 = new BMICalculator(50,2.0);
+        assertEquals(bmiCalculator3.interpret(), "Underweight");
     }
 
     @Test
     public void BMIInterpretWithNormalWeightTest() {
-        bmiCalculator.setHeight(1.80);
-        bmiCalculator.setWeight(70);
-        assertEquals(bmiCalculator.interpret(), "NormalWeight");
+
+        BMICalculator bmiCalculator4 = new BMICalculator(70,1.80);
+        assertEquals(bmiCalculator4.interpret(), "NormalWeight");
     }
 
     @Test
     public void BMIInterpretWithOverWeightTest() {
-        bmiCalculator.setHeight(1.5);
-        bmiCalculator.setWeight(200);
-        assertEquals(bmiCalculator.interpret(), "OverWeight");
+
+        BMICalculator bmiCalculator5 = new BMICalculator(200,1.50);
+        assertEquals(bmiCalculator5.interpret(), "OverWeight");
     }
 }
