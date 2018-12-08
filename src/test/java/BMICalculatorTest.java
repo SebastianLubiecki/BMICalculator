@@ -9,7 +9,6 @@ public class BMICalculatorTest {
 
     private BMICalculator bmiCalculator;
 
-
     @Before
     public void setBmiCalculator() {
         this.bmiCalculator = new BMICalculator();

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="740bb030-cf66-4bb8-8836-746c53aa79b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BMICalculatorParameterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BMICalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BMICalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BMICalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BMICalculatorTest.java" afterDir="false" />
@@ -35,26 +38,30 @@
         <counts>
           <entry key="README" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="4" />
+          <entry key="gradle" value="1" />
+          <entry key="java" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="Groovy" value="1" />
+          <entry key="JAVA" value="5" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="README" value="31" />
-          <entry key="java" value="618" />
-          <entry key="txt" value="11" />
+          <entry key="gradle" value="1" />
+          <entry key="java" value="1160" />
+          <entry key="txt" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="618" />
-          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="Groovy" value="1" />
+          <entry key="JAVA" value="1160" />
+          <entry key="PLAIN_TEXT" value="55" />
         </counts>
       </usages-collector>
     </session>
@@ -73,27 +80,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BMICalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="531">
+              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#BMICalculator#1;class#BMICalculator#0" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BMICalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="477">
+              <caret line="70" column="59" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#199#200#0" expanded="true" />
                 <element signature="e#255#256#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BMICalculatorParameterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -107,11 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="63">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -316,9 +345,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6177040624153" />
+        <entry key="$PROJECT_DIR$" value="6177045166048" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1752754994" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2058214179" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3821470487" />
       </map>
@@ -437,15 +466,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Calculate.java" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BMICalculator.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/BMICalculatorParameterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/BMICalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BMICalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="width" value="977" />
+    <option name="width" value="1174" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -502,7 +533,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544263556199" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544266723572" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -519,7 +550,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BMICalculatorTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="BMICalculator_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BMICalculatorParameterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BMICalculator_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BMICalculatorParameterTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BMICalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BMICalculator_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -552,10 +598,14 @@
       <item itemvalue="JUnit.BMICalculatorTest.BMICalculateTestWithParametersZeroTest" />
       <item itemvalue="JUnit.BMICalculatorTest" />
       <item itemvalue="JUnit.BMICalculatorTest.BMIInterpretTest" />
+      <item itemvalue="JUnit.BMICalculatorParameterTest" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BMICalculatorTest" />
+        <item itemvalue="JUnit.BMICalculatorParameterTest" />
         <item itemvalue="JUnit.BMICalculatorTest.BMIInterpretTest" />
         <item itemvalue="JUnit.BMICalculatorTest.BMICalculateTestWithParametersZeroTest" />
       </list>
@@ -579,16 +629,17 @@
       <option name="project" value="LOCAL" />
       <updated>1544260637721</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="RedRedRed">
+      <created>1544264447164</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544264447164</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BMICalculatorTest - 2018.12.08 at 10h 43m 24s.xml">
-      <configuration name="BMICalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BMICalculatorTest - 2018.12.08 at 10h 44m 01s.xml">
-      <configuration name="BMICalculatorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BMICalculatorTest - 2018.12.08 at 10h 44m 56s.xml">
       <configuration name="BMICalculatorTest" configurationId="JUnit" />
     </history-entry>
@@ -610,12 +661,21 @@
     <history-entry file="BMICalculatorTest - 2018.12.08 at 11h 05m 06s.xml">
       <configuration name="BMICalculatorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BMICalculatorParameterTest - 2018.12.08 at 11h 26m 40s.xml">
+      <configuration name="BMICalculatorParameterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BMICalculatorParameterTest - 2018.12.08 at 11h 27m 30s.xml">
+      <configuration name="BMICalculatorParameterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BMICalculatorTest - 2018.12.08 at 11h 30m 55s.xml">
+      <configuration name="BMICalculatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.118120804" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19664429" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -633,7 +693,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.1858156" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.1858156" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -650,7 +710,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="before red" />
-    <option name="LAST_COMMIT_MESSAGE" value="before red" />
+    <MESSAGE value="RedRedRed" />
+    <option name="LAST_COMMIT_MESSAGE" value="RedRedRed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -667,10 +728,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="294">
+          <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
         </state>
       </provider>
     </entry>
@@ -681,27 +742,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BMICalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BMICalculatorParameterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="141">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="method#BMICalculator#1;class#BMICalculator#0" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BMICalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="477">
+          <caret line="70" column="59" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#199#200#0" expanded="true" />
             <element signature="e#255#256#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BMICalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#BMICalculator#1;class#BMICalculator#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>

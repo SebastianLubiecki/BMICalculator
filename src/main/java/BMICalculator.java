@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class BMICalculator implements Calculate {
 
     private double weight;
@@ -14,12 +18,23 @@ public class BMICalculator implements Calculate {
     @Override
     public String calculate() {
 
-        return null;
+        double calculatedBMI = ((getWeight()) / Math.pow(getHeight(), 2));
+        String parseCalculatedBMIToString = String.valueOf(calculatedBMI);
+
+        return parseCalculatedBMIToString;
     }
 
     @Override
     public String interpret() {
-        return null;
+        double BMIValue = Double.valueOf(calculate());
+ double [] arrayOfRangeForBMI = {0, 18.5, 25};
+     int indexOfValueInRangeBMIArray =   Arrays.binarySearch(arrayOfRangeForBMI, BMIValue);
+        List<String> arrayOfAnswerToUser = new ArrayList<>();
+        arrayOfAnswerToUser.add("Underweight");
+        arrayOfAnswerToUser.add("NormalWeight");
+        arrayOfAnswerToUser.add("OverWeight");
+
+        return arrayOfAnswerToUser.get(indexOfValueInRangeBMIArray);
     }
 
 
@@ -38,4 +53,6 @@ public class BMICalculator implements Calculate {
     public void setHeight(double height) {
         this.height = height;
     }
+
+
 }
